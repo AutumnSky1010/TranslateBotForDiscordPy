@@ -1,0 +1,6 @@
+{
+    "name": "translatebot",
+    "description": "ディスコードで翻訳する",
+    "repository": "https://github.com/AutumnSky1010/TranslateBotForDiscordPy",
+    "keywords": ["python", "discord", "bot"]
+  }
