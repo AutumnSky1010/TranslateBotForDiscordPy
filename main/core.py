@@ -15,7 +15,8 @@ class Core:
         )
         bot.add_cog(discommands.TranslateCmds())
         bot.add_cog(discommands.CoreCmds())
-        bot.add_cog(events.TranslateEvents(bot))
+        bot.add_cog(events.TranslateEvents())
+        bot.add_cog(events.CoreEvents())
         bot.run(token)
 if __name__ == '__main__':
     Core().bot_run()
